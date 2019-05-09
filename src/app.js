@@ -10,7 +10,7 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 const store = configureStore();
-store.dispatch(addExpense({description: 'water bill'}));
+store.dispatch(addExpense({description: 'water bill', amount: 4533}));
 store.dispatch(addExpense({description: 'gas bill'}));
 store.dispatch(setTextFilter('water'));
 
